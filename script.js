@@ -43,8 +43,11 @@ const renderCards = (productCategory) => {
   listProd.innerHTML = "";
   cat.innerHTML = "";
   let listaProds = [];
+  if(productCategory === "DrinksAndSides"){
+      productCategory = "Drinks and Sides";
+  }
   jsonData.forEach((item) => {
-    if (item.name === productCategory) {
+    if (item.name === productCategory ) {
       listaProds = item.products;
     }
   });
