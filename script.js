@@ -20,5 +20,8 @@ const renderCards = (productName) => {
             listaProds = item.products;
         }
     })
+    listaProds.forEach((product) => {
+        let cardInfo = document.createAttribute("")
+    });
     //console.log(productName);
 }
