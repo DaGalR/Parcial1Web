@@ -21,7 +21,7 @@ const renderCards = (productName) => {
         }
     })
     listaProds.forEach((product) => {
-        let cardInfo = document.createAttribute("")
+        let cardInfo = document.createAttribute("");
     });
     //console.log(productName);
 }
