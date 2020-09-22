@@ -27,4 +27,5 @@
           "space-before-blocks": ["warn", "always"],
           "no-loop-func": "error",
           "key-spacing": ["warn", {"beforeColon": false, "afterColon": true}]
+    }
 }
